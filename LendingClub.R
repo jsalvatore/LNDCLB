@@ -4,11 +4,19 @@
 # Date: September 5, 2015
 ########################################################################
 
+rm(list = ls())
+
 ls("package:LendingClubJFS")
 data(package = "LendingClubJFS")
-save(LC2015, file =  "C:/Users/Joe Salvatore/Documents/GitHub/LNDCLB/LendingClubJFS/data/LC2015.rda")
+save(LC2015, file =  "C:/Users/Joe Salvatore/Documents/GitHub/LNDCLB/LendingClub/data/LC2015.rda")
 
 library(devtools)
-install_github("jsalvatore/LNDCLB/LendingClubJFS", ref = "master")
-library(LendingClubJFS)         
+install_github("jsalvatore/LNDCLB/LendingClub", ref = "master")
+library(LendingClub)         
 data("LC2015")
+data("LCDataDictionary")
+
+LCDD <- read.csv("C:/Users/Joe Salvatore/Desktop/LCDataDictionary.csv")
+save(LCDD, file =  "C:/Users/Joe Salvatore/Documents/GitHub/LNDCLB/LendingClub/data/LCDataDictionary.rda")
+
+install("C:/Users/Joe Salvatore/Documents/GitHub/LNDCLB/LendingClub/")
