@@ -1,24 +1,24 @@
-\name{LendingClubJFS-package}
-\alias{LendingClubJFS-package}
-\alias{LendingClubJFS}
+\name{LendingClub-package}
+\alias{LendingClub-package}
+\alias{LendingClub}
 \docType{package}
 \title{
-\packageTitle{LendingClubJFS}
+\packageTitle{LendingClub}
 }
 \description{
-\packageDescription{LendingClubJFS}
+\packageDescription{LendingClub}
 }
 \details{
 
 The DESCRIPTION file:
-\packageDESCRIPTION{LendingClubJFS}
-\packageIndices{LendingClubJFS}
+\packageDESCRIPTION{LendingClub}
+\packageIndices{LendingClub}
 ~~ An overview of how to use the package, including the most important functions ~~
 }
 \author{
-\packageAuthor{LendingClubJFS}
+\packageAuthor{LendingClub}
 
-Maintainer: \packageMaintainer{LendingClubJFS}
+Maintainer: \packageMaintainer{LendingClub}
 }
 \references{
 ~~ Literature or other references for background information ~~
