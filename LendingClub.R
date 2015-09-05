@@ -7,3 +7,8 @@
 ls("package:LendingClubJFS")
 data(package = "LendingClubJFS")
 save(LC2015, file =  "C:/Users/Joe Salvatore/Documents/GitHub/LNDCLB/LendingClubJFS/data/LC2015.rda")
+
+library(devtools)
+install_github("jsalvatore/LNDCLB/LendingClubJFS", ref = "master")
+library(LendingClubJFS)         
+data("LC2015")
