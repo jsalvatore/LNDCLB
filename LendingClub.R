@@ -20,6 +20,7 @@ data("LC2015")
 data("LC2013_14")
 data("LCDataDictionary")
 
+
 LCDD <- read.csv("C:/Users/Joe Salvatore/Desktop/LCDataDictionary.csv")
 save(LCDD, file =  "C:/Users/Joe Salvatore/Documents/GitHub/LNDCLB/LendingClub/data/LCDataDictionary.rda")
 
