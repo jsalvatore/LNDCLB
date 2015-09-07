@@ -4,6 +4,6 @@ Title: Loads LendingClub Datasets and Data Dictionary
 Version: 1.0
 Date: 2015-09-05
 Author: Joe Salvatore
-Maintainer: joe@jsalvatore.com
+Maintainer: "joe@jsalvatore.com"
 Description: This package, at preset, simply loads the data from Lending Club, and the associated Data Dictionary
-License: GNU General Public License, version 3 (GPL-3.0)
+License: "GNU General Public License, version 3 (GPL-3.0)"
